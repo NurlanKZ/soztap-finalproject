@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    margin: 20px 0px;
+    gap: 40px;
+}
+
+.confirm {
+    height: 80px;
+    width: 30%;
+    border-radius: 20px;
+    font-size: 70px;
+    background-color: #8bff77;
+}
+
+.clear {
+    height: 80px;
+    width: 15rem;
+    border-radius: 20px;
+    font-size: 60px;
+    background-color: #fcc154;
+}
+
+.empty {
+    height: 80px;
+    width: 150px;
+}

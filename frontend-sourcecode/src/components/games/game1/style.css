@@ -1,0 +1,74 @@
+.bigbox {
+    height: 20rem;
+    margin-block-start: 10rem;
+    font-size: 120px;
+}
+
+.letterGrid {
+    margin: 0px 0px 0px 12px;
+    width: 775px;
+    height: 500px;
+    display: inline-grid;
+    grid-template-areas:
+    '1 1 1 1 1';
+    column-gap: 0px;
+}
+
+.letterGrid button {
+    border-radius: 25px;
+    box-shadow: 3px 3px 8px #222, inset 0px 0px 10px #444;
+}
+
+.timer-wrapper {
+    position: absolute;
+    top: 10rem;
+    left: 70rem;
+    width: 12rem;
+    height: 6rem;
+    border-radius: 20px;
+    background-color: #fcc154;
+    border: solid;
+    border-width: 1px;
+}
+
+.found-wrapper {
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+    width: 12rem;
+    height: 29rem;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #fcc154;
+    border: solid;
+    border-width: 1px;
+}
+
+.found-wrapper p {
+    margin-top: 7px;
+    font-size: 22px;
+}
+
+.timer-wrapper p {
+    margin-top: 35px;
+    font-size: 70px;
+}
+
+.gameover-wrapper {
+    position: absolute;
+    top: 10rem;
+    left: 70rem;
+    width: 12rem;
+    height: 30rem;
+    border-radius: 20px;
+    background-color: #fcc154;
+    border: solid;
+    border-width: 1px;
+}
+
+.gameover-wrapper p {
+    font-size: 20px;
+    row-gap: 0px;
+    margin-top: 15px;
+}

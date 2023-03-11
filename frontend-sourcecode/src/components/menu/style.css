@@ -1,0 +1,22 @@
+.soztap {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 60px 0px;
+    font-size: 120px;
+    font-weight: 700;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+             1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+
+    color:#fc974f;
+    cursor: pointer;
+}
+
+.menublock button {
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.menublock:hover {
+    border-color: #fcdd4f;
+    border-style:outset;
+}

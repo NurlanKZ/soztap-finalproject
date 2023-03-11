@@ -1,0 +1,13 @@
+.searchadd {
+    height: 80px;
+    width: 20%;
+    border-radius: 20px;
+    font-size: 70px;
+    background-color: #8bff77;
+}
+
+.subheader {
+    display: flex;
+    margin: 100px 0px;
+    gap: 40px;
+}

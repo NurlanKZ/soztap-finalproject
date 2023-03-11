@@ -1,0 +1,19 @@
+.letterGridSpecial {
+    margin: 0px 0px 0px 12px;
+    width: 775px;
+    height: 500px;
+    display: inline-grid;
+    grid-template-areas:
+    '1 1 1 1 1';
+    column-gap: 0px;
+}
+
+.letterGridSpecial button:nth-child(8)  {
+    color: rgb(238, 50, 22);
+    font-size: 80px;
+}
+
+.letterGridSpecial button {
+    border-radius: 25px;
+    box-shadow: 3px 3px 8px #222, inset 0px 0px 10px #444;
+}

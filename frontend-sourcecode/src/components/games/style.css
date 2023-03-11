@@ -1,0 +1,17 @@
+.twobytwo {
+    display: inline-grid;
+    grid-template-areas: '1 1';
+}
+
+.box {
+    width: 38rem;
+    height: 24rem;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    border-radius: 5rem;
+    background-color: #fcc154;
+    cursor: pointer;
+}

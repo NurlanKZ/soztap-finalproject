@@ -1,0 +1,24 @@
+.about-wrapper {
+    display: flex;
+    width: 100vw;
+}
+
+.photo {
+    display: flex;
+    cursor: pointer;
+}
+
+.poem {
+    margin-left: 70px;
+    text-align: start;
+}
+
+.poem p {
+    margin-top: 40px;
+    font-size: 37px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.byline {
+    padding-left: 325px;
+}
